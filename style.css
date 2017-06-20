@@ -1,12 +1,25 @@
 #content {
-  width: 600px;
-  margin: 120px auto;
+  margin: auto;
+}
+
+.body {
+  background-image: url(back.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body,html {
+  height: 100%;
+  margin: 0;
 }
 
 h1 {
-  font-size: 36px;
-  margin-bottom: 8px;
+  font-size: 60px;
+  margin: 0 500px 8px 500px;
 }
+
 
 .subtext {
   font-size: 18px;
@@ -18,29 +31,34 @@ h2 {
   margin: 40px 0 8px 0;
 }
 
-body {
-  font-family: 'Lato', sans-serif;
+@font-face {
+  font-family: sf;
+  src: url(assets/fonts/SFCompactDisplay-Regular.otf);
 }
+
+body {
+  font-family: "sans-serif;
+}
+
+/*
+img {
+  max-width: auto;
+  height: 100%;
+  position: relative;
+}
+
+.bg {
+  background-image: url("edit1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+*/
 
 h1, h2 {
-  color: #6666FF;
-}
-
-h1:hover {
-  color: #006600;
-}
-
-#line {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 4px;
-  background-color: #6666FF;
-}
-
-#photo {
-  width: 150px;
+  color: #FFFFFF;
 }
 
 #project-list {
@@ -48,6 +66,10 @@ h1:hover {
   flex-direction: row;            /* Left to right */
   flex-wrap: wrap;                /* Wrap content */
   justify-content: space-between; /* Spread space */
+}
+
+@-ms-viewport{
+  width: device-width;
 }
 
 .project {
