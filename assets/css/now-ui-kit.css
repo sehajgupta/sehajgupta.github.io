@@ -3210,9 +3210,21 @@ Created using IcoMoon - icomoon.io
 .intro-text {
   font-family: 'Playfair Display', serif;
   font-size: 25px;
+  font-weight: bolder;
   color: #FFFFFF;
   text-align: center;
-  vertical-align: middle;
+  vertical-align: bottom;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #FFFFFF;
+  width: 100%;
+  max-width: 880px;
+  z-index: 100;
 }
 .page-header footer {
   position: absolute;
