@@ -3193,38 +3193,21 @@ Created using IcoMoon - icomoon.io
 
 .page-header {
   height: 100vh;
-  
+  background: linear-gradient(-90deg, #fe5f75, #fc9842);
   padding: 0;
-  position: relative;
-  background-position: center center;
-  background-size: cover; }
-.page-header .page-header-image {
-  position: absolute;
-  background-size: cover;
-  background-position: center center;
-  background-image: url("../img/back.jpg");
-  width: 100%;
-  height: 100%;
   z-index: -1;
 }
 .intro-text {
   font-family: 'BebasNeue Book', serif;
-  font-size: 25px;
+  font-size: 50px;
   font-weight: bolder;
   color: #FFFFFF;
-  text-align: center;
-  vertical-align: bottom;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   text-align: center;
   color: #FFFFFF;
   width: 100%;
   max-width: 880px;
-  z-index: 100;
+  z-index: 1;
+  transform: translateY(-50%);
 }
 .page-header footer {
   position: absolute;
