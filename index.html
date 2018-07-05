@@ -3,7 +3,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css" >
 <link rel="stylesheet" href="assets/css/jquery.fullPage.min.css" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,6 +22,14 @@
         gtag('config', 'UA-121879259-1');
     </script>
 </head>
+
+<script>
+    $(document).ready(function () {
+        $('#fullpage').fullpage({
+            navigation: true,
+        });
+    });
+</script>
 
 <body>
     <div id="fullpage">
@@ -127,16 +135,7 @@
 </body>
 
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-<script type="text/javascript" src="assets/javascript/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="assets/javascript/jquery.fullPage.min.js"></script>
-
-<script>
-    $(document).ready(function () {
-        $('#fullpage').fullpage({
-            navigation: true,
-        });
-    });
-</script>
-
+<script defer type="text/javascript" src="assets/javascript/jquery-3.3.1.min.js"></script>
+<script defer type="text/javascript" src="assets/javascript/jquery.fullPage.min.js"></script>
 
 </html>
